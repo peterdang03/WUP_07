@@ -58,6 +58,13 @@ basicCC + geom_bar(stat="identity", position = "dodge")
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+According to the data above, we saw that Out of the alive group, 12% more women than men survived. Out of the dead group, about 30% more men than women died. Also, 98.7% of females lived while 1.4% of them died, and 97% of men lived while 3% of men died. Percentagewise, the pandemic has killed about twice the amount of men than it did women.
 
 ## Inferential results 
 
