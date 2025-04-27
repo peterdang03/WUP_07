@@ -78,3 +78,4 @@ For the Chi-squared results,  we got a p-value of 0.0012. Which means that this 
 
 ## Conclusions
 
+Based on what we did so far, we are addressing if dying of COVID is independent of sex or not. We have used a sample from Korea and then used graphical, numerical, and inferential results to answer the question. We can see that 98.7% of females lived while 1.4% of females died, and 97% of men lived while 3% of men died. Percentage wise, we can see that the pandemic has killed twice the amount of men that it did women. We also see that our p values from the Chi-squared test and Fisher's test are less than 0.05, so we reject the null hypothesis. 
